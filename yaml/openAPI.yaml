@@ -5,7 +5,7 @@ info:
     Dokumentasi API untuk Matakuliah GIS
   termsOfService: https://github.com/daps
   contact:
-    email: daffaaudyapramana03@gmail.com
+    email: dapaaudyapramana03@gmail.com
   license:
     name: GCF Package
     url: https://pkg.go.dev/github.com/gisdaps/gcpbackends6
@@ -14,7 +14,7 @@ externalDocs:
   description: Swagger
   url: https://gisdaps.github.io/swagger/
 servers:
-  - url: https://asia-southeast2-daffaaudya.cloudfunctions.net
+  - url: https://asia-southeast2-dapaaudya.cloudfunctions.net
 tags:
   - name: auth
     description: Authentikasi
@@ -130,10 +130,10 @@ components:
       properties:
         username:
           type: string
-          example : daffa
+          example : dapa
         password:
           type: string
-          example: daffa
+          example: dapaskut
     Response:
       type: object
       properties:
@@ -157,7 +157,7 @@ components:
           properties:
             username:
               type: string
-              example: daffa
+              example: dapa
             password:
               type: string
               example: hashed password
@@ -169,10 +169,10 @@ components:
       properties:
         username:
           type: string
-          example: daffa
+          example: dapa
         password:
           type: string
-          example: daffa
+          example: dapaskut
     bodycord:
       type: object
       properties:
@@ -181,7 +181,7 @@ components:
           example: polygon
         name:
           type: string
-          example: daffa
+          example: dapa
         volume:
           type: string
           example: "1"
@@ -196,7 +196,7 @@ components:
           example: Selamat Datang
         token:
           type: string
-          example: daffa
+          example: dapa
   requestBodies:
     AuthReq:
       description: Request Authentication
