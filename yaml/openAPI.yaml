@@ -1,20 +1,20 @@
 openapi: 3.0.3
 info:
-  title: Dokumen API Cloud Function - OpenAPI 3.0
-  description: |-
-Dokumentasi API MataKuliah GIS
-  termsOfService: https://github.com/gisdaps
+  title: Dokumen API Cloud Function GIS- OpenAPI 3.0
+  description: >-
+    Dokumentasi API untuk Matakuliah GIS
+  termsOfService: https://github.com/daps
   contact:
     email: daffaaudyapramana03@gmail.com
   license:
     name: GCF Package
     url: https://pkg.go.dev/github.com/gisdaps/gcpbackends6
-  version: 0.0.2
+  version: 0.0.4
 externalDocs:
   description: Swagger
-  url: https://gisdaps.github.io/swagger
+  url: https://gisdaps.github.io/swagger/
 servers:
-  - url: https://asia-southeast2-daffaaudya.cloudfunctions.net/gis6-
+  - url: https://us-central1-gcpospasial.cloudfunctions.net
 tags:
   - name: auth
     description: Authentikasi
@@ -32,7 +32,7 @@ tags:
       description: Deskripsi dan Kode Program
       url: https://github.com/gisdaps/gcpbackends6
 paths:
-  /gis6-register:
+  /RegisterGis:
     post:
       tags:
         - register
@@ -53,7 +53,7 @@ paths:
                 $ref: '#/components/schemas/Response'
         '405':
           description: Invalid input
-  /gis6-login:
+  /login-gis:
     post:
       tags:
         - auth
@@ -74,7 +74,7 @@ paths:
                 $ref: '#/components/schemas/AuthResponse'
         '405':
           description: Invalid input
-  /gis6-update:
+  /UpdateGeo:
     put:
       tags:
         - data
@@ -99,7 +99,8 @@ paths:
         - Login:
           - write:apiKey
           - read:apiKey
-  /gis6-getall:
+
+  /GetAllGeo:
     get:
       tags:
         - data
@@ -217,5 +218,4 @@ components:
       name: Login
       in: header
 
-      
       
