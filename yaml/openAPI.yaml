@@ -130,10 +130,10 @@ components:
       properties:
         username:
           type: string
-          example : haris
+          example : daffa
         password:
           type: string
-          example: haris
+          example: daffa
     Response:
       type: object
       properties:
@@ -157,7 +157,7 @@ components:
           properties:
             username:
               type: string
-              example: haris
+              example: daffa
             password:
               type: string
               example: hashed password
@@ -169,10 +169,10 @@ components:
       properties:
         username:
           type: string
-          example: haris
+          example: daffa
         password:
           type: string
-          example: haris
+          example: daffa
     bodycord:
       type: object
       properties:
@@ -181,7 +181,7 @@ components:
           example: polygon
         name:
           type: string
-          example: haris
+          example: daffa
         volume:
           type: string
           example: "1"
@@ -196,7 +196,7 @@ components:
           example: Selamat Datang
         token:
           type: string
-          example: haris
+          example: daffa
   requestBodies:
     AuthReq:
       description: Request Authentication
