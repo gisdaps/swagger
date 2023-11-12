@@ -3,7 +3,7 @@ info:
   title: Dokumen API Cloud Function - OpenAPI 3.0
   description: |-
 Dokumentasi API MataKuliah GIS
-  termsOfService: https://github.com/gisdaps/swagger
+  termsOfService: https://github.com/gisdaps
   contact:
     email: daffaaudyapramana03@gmail.com
   license:
@@ -14,7 +14,7 @@ externalDocs:
   description: Swagger
   url: https://gisdaps.github.io/swagger
 servers:
-  - url: https://asia-southeast2-daffaaudya.cloudfunctions.net
+  - url: https://asia-southeast2-daffaaudya.cloudfunctions.net/gis6-
 tags:
   - name: auth
     description: Authentikasi
