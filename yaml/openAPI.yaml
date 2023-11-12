@@ -32,7 +32,7 @@ tags:
       description: Deskripsi dan Kode Program
       url: https://github.com/gisdaps/gcpbackends6
 paths:
-  /RegisterGis:
+  /gis6-register:
     post:
       tags:
         - register
@@ -53,7 +53,7 @@ paths:
                 $ref: '#/components/schemas/Response'
         '405':
           description: Invalid input
-  /login-gis:
+  /gis6-login:
     post:
       tags:
         - auth
@@ -74,7 +74,7 @@ paths:
                 $ref: '#/components/schemas/AuthResponse'
         '405':
           description: Invalid input
-  /UpdateGeo:
+  /gis6-update:
     put:
       tags:
         - data
@@ -99,8 +99,7 @@ paths:
         - Login:
           - write:apiKey
           - read:apiKey
-
-  /GetAllGeo:
+  /gis6-getall:
     get:
       tags:
         - data
