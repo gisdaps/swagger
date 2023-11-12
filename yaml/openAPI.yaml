@@ -14,7 +14,7 @@ externalDocs:
   description: Swagger
   url: https://gisdaps.github.io/swagger/
 servers:
-  - url: https://us-central1-gcpospasial.cloudfunctions.net
+  - url: https://asia-southeast2-daffaaudya.cloudfunctions.net
 tags:
   - name: auth
     description: Authentikasi
