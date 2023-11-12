@@ -1,7 +1,7 @@
 openapi: 3.0.3
 info:
   title: Dokumen API Cloud Function - OpenAPI 3.0
-  description: >-
+  description: |-
 Dokumentasi API MataKuliah GIS
   termsOfService: https://github.com/gisdaps
   contact:
