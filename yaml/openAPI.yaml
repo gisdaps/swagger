@@ -12,7 +12,7 @@ Dokumentasi API MataKuliah GIS
   version: 0.0.1
 externalDocs:
   description: Swagger
-  url: https://github.com/gisdaps/swagger
+  url: https://gisdaps.github.io/swagger
 servers:
   - url: https://asia-southeast2-wegotour-403712.cloudfunctions.net/
 tags:
