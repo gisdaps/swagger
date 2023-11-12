@@ -3,7 +3,7 @@ info:
   title: Dokumen API Cloud Function - OpenAPI 3.0
   description: |-
 Dokumentasi API MataKuliah GIS
-  termsOfService: https://github.com/gisdaps
+  termsOfService: https://github.com/gisdaps/swagger
   contact:
     email: daffaaudyapramana03@gmail.com
   license:
