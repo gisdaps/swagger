@@ -5,7 +5,7 @@ info:
     Dokumentasi API untuk Matakuliah GIS
   termsOfService: https://github.com/daps
   contact:
-    email: dapaaudyapramana03@gmail.com
+    email: daffaaudyapramana03@gmail.com
   license:
     name: GCF Package
     url: https://pkg.go.dev/github.com/gisdaps/gcpbackends6
@@ -14,7 +14,7 @@ externalDocs:
   description: Swagger
   url: https://gisdaps.github.io/swagger/
 servers:
-  - url: https://asia-southeast2-dapaaudya.cloudfunctions.net
+  - url: https://asia-southeast2-daffaaudya.cloudfunctions.net
 tags:
   - name: auth
     description: Authentikasi
