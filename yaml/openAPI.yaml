@@ -53,7 +53,7 @@ paths:
                 $ref: '#/components/schemas/Response'
         '405':
           description: Invalid input
-  /login-gis:
+  /gislogin:
     post:
       tags:
         - auth
