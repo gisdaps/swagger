@@ -53,6 +53,7 @@ paths:
                 $ref: '#/components/schemas/Response'
         '405':
           description: Invalid input
+          
   /gislogin:
     post:
       tags:
@@ -185,6 +186,7 @@ components:
         volume:
           type: string
           example: "1"
+
     AuthResponse:
       type: object
       properties:
@@ -197,6 +199,7 @@ components:
         token:
           type: string
           example: dapa
+
   requestBodies:
     AuthReq:
       description: Request Authentication
@@ -204,6 +207,7 @@ components:
         application/json:
           schema:
             $ref: '#/components/schemas/Auth'
+
     UserArray:
       description: List of user object
       content:
@@ -212,6 +216,7 @@ components:
             type: array
             items:
               $ref: '#/components/schemas/AuthResponse'
+              
   securitySchemes:
     Login:
       type: apiKey
